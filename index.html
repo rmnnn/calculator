@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div class="conatainer">
+        <div class="calculator">
+            <input type="text" id='input-numb' placeholder='0'>
+            <button onclick="clr()">CC</button>
+            <button onclick="del()">C</button>
+            <button onclick="izracunaj('(')">(</button>
+            <button onclick="izracunaj(')')">)</button>
+            <button onclick="izracunaj('7')">7</button>
+            <button onclick="izracunaj('8')">8</button>
+            <button onclick="izracunaj('9')">9</button>
+            <button onclick="izracunaj('/')">/</button>
+            <button onclick="izracunaj('4')">4</button>
+            <button onclick="izracunaj('5')">5</button>
+            <button onclick="izracunaj('6')">6</button>
+            <button onclick="izracunaj('*')">x</button>
+            <button onclick="izracunaj('1')">1</button>
+            <button onclick="izracunaj('2')">2</button>
+            <button onclick="izracunaj('3')">3</button>
+            <button onclick="izracunaj('-')">-</button>
+            <button onclick="izracunaj('0')">0</button>
+            <button onclick="izracunaj(',')">,</button>
+            <button onclick="rezultat()" id='equal-btn'>=</button>
+            <button onclick="izracunaj('+')">+</button>
+        </div>
+    </div>
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>
